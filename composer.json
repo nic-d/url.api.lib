@@ -1,0 +1,29 @@
+{
+    "name": "nybbl/url",
+    "description": "API Library for integrating with the Nybbl URL shortener (v1)",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "nybbl",
+        "url",
+        "shortener"
+    ],
+    "authors": [
+        {
+            "name": "Nic Davies",
+            "email": "nybbl.io@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "php-curl-class/php-curl-class": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nybbl\\": ["src/"]
+        }
+    }
+}
